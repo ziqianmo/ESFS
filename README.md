@@ -7,7 +7,7 @@ This repository contains the official PyTorch implementation of **"Enhanced Spat
 
 
 <div align="center">
-<img src="img/model.png" alt="ESFS Model Architecture" width="800">
+<img src="img/model.jpg" alt="ESFS Model Architecture" width="800">
 <p><em>Figure 1: Overview of the Enhanced Spatial-Frequency Synergistic Network (ESFS) architecture</em></p>
 </div>
 
@@ -25,8 +25,10 @@ ESFS/
 │   ├── GF5_S2A_dataset.py      # GF5_S2A dataset loader
 │   └── dataloader.py           # Main dataloader
 ├── img/
-│   ├── model.png               # Model architecture diagram
-│   └── performance.png         # Performance comparison chart
+│   ├── cave_qualitative.jpg    # Cave qualitative
+│   ├── cave_quantitative.jpg   # Cave quantitative 
+│   ├── model.jpg               # Model architecture diagram
+│   └── performance.jpg         # Performance comparison chart
 ├── argsParser.py               # Command line arguments parser
 ├── main.py                     # Main training script
 ├── trainer.py                  # Training logic
@@ -148,7 +150,7 @@ The project includes comprehensive evaluation metrics in `metrics.py`:
 Our ESFS method achieves state-of-the-art performance compared to existing fusion methods:
 
 <div align="center">
-<img src="img/performance.png" alt="Performance Comparison" width="800">
+<img src="img/performance.jpg" alt="Performance Comparison" width="800">
 <p><em>Figure 2: Quantitative comparison with state-of-the-art methods on benchmark datasets</em></p>
 </div>
 
@@ -156,7 +158,7 @@ Our ESFS method achieves state-of-the-art performance compared to existing fusio
 ## 📊 Quantitative Results on CAVE Dataset
 
 <div align="center">
-<img src="img/cave_quantitative.png" alt="CAVE Quantitative Results" width="800">
+<img src="img/cave_quantitative.jpg" alt="CAVE Quantitative Results" width="800">
 <p><em>Table 1: Quantitative comparison (PSNR, SAM, ERGAS, etc.) on the CAVE dataset.</em></p>
 </div>
 
@@ -165,7 +167,7 @@ Our ESFS method achieves state-of-the-art performance compared to existing fusio
 ## 👀 Qualitative Results on CAVE Dataset
 
 <div align="center">
-<img src="img/cave_qualitative.png" alt="CAVE Qualitative Results" width="800">
+<img src="img/cave_qualitative.jpg" alt="CAVE Qualitative Results" width="800">
 <p><em>Figure 3: Visual comparison of fusion results on the CAVE dataset.</em></p>
 </div>
 
